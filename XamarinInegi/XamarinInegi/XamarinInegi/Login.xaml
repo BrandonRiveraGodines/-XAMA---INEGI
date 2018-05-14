@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinInegi"
+             x:Class="XamarinInegi.Login"
+             BackgroundColor="#0B9FB6">
+
+    <StackLayout VerticalOptions="Center">
+        <Image x:Name="userLoginImage"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               WidthRequest="200"
+               HeightRequest="200"/>
+        <Entry
+            x:Name="entEmailLogin"
+            Placeholder="Correo electrónico"
+            Keyboard="Email"
+            HorizontalTextAlignment="Center"
+            HorizontalOptions="Center"
+            WidthRequest="300"/>
+        
+        <Entry 
+            x:Name="entPasswordLogin"
+            HorizontalTextAlignment="Center"
+            Placeholder="Contraseña"
+            IsPassword="True"
+            HorizontalOptions="Center"
+            WidthRequest="300"
+            />
+        
+        <Button 
+            x:Name="btnLinkToFunciones"
+            Text="Iniciar Sesión"
+            TextColor="#0B9FB6"
+            BackgroundColor="White"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            BorderRadius="25"/>
+        
+        <Button
+            x:Name="btnLinkToRegistrar"
+            Text="Registarme"
+            TextColor="#0B9FB6"
+            BackgroundColor="White"
+            HorizontalOptions="Center"
+            WidthRequest="200"
+            BorderRadius="25"/>
+            
+            
+    </StackLayout>
+
+</ContentPage>

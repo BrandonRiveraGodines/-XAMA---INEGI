@@ -1,0 +1,9 @@
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.deps.json
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.dll
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.pdb
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.csprojAssemblyReference.cache
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.csproj.CoreCompileInputs.cache
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.AssemblyInfoInputs.cache
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.AssemblyInfo.cs
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.dll
+C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.pdb

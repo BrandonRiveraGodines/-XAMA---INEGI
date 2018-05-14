@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinInegi.Registro">
+    <StackLayout VerticalOptions="Center">
+        <Image 
+            x:Name="imgRegistro"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            WidthRequest="200"
+            HeightRequest="200"/>
+        <Entry 
+            x:Name="entEmailRegistro"
+            HorizontalTextAlignment="Center"
+            Placeholder="Correo electrónico"
+            HorizontalOptions="Center"
+            WidthRequest="300"
+            Keyboard="Email"/>
+        <Entry 
+            x:Name="entPasswordRegistro"
+            HorizontalTextAlignment="Center"
+            Placeholder="Contraseña"
+            HorizontalOptions="Center"
+            WidthRequest="300"
+            IsPassword="True"/>
+        <Entry 
+            x:Name="entPasswordConfirmationRegistro"
+            HorizontalTextAlignment="Center"
+            Placeholder="Confirmar contraaseña"
+            HorizontalOptions="Center"
+            WidthRequest="300"
+            IsPassword="True"/>
+        <Button 
+            x:Name="btnRegistrarUsuario"
+            Text="Registrar"
+            HorizontalOptions="Center"
+            WidthRequest="150"
+            BorderRadius="25"
+            BackgroundColor="White"
+            TextColor="Red"/>
+        <Button 
+            x:Name="btnLinkToLogin"
+            Text="¿Registrado?, Inicia sesión"
+            HorizontalOptions="Center"
+            WidthRequest="250"
+            BorderRadius="25"
+            BackgroundColor="White"
+            TextColor="Red"/>
+    </StackLayout>
+</ContentPage>

@@ -17,5 +17,10 @@ namespace XamarinInegi
 			InitializeComponent ();
             imgRegistro.Source = ImageSource.FromFile("add_user.png");
 		}
-	}
+
+        private void btnLinkToLogin_Clicked(object sender, EventArgs e)
+        {
+            ((NavigationPage)this.Parent).PushAsync(new Login());
+        }
+    }
 }

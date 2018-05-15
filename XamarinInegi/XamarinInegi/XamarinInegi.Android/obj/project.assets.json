@@ -755,11 +755,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
+      "projectUniqueName": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
       "projectName": "XamarinInegi.Android",
-      "projectPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
+      "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
       "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\obj\\",
+      "outputPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -776,8 +776,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
-              "projectPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
+            "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
+              "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
             }
           }
         }

@@ -7033,11 +7033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.UWP\\XamarinInegi.UWP.csproj",
+      "projectUniqueName": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.UWP\\XamarinInegi.UWP.csproj",
       "projectName": "XamarinInegi.UWP",
-      "projectPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.UWP\\XamarinInegi.UWP.csproj",
+      "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.UWP\\XamarinInegi.UWP.csproj",
       "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.UWP\\obj\\",
+      "outputPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7057,8 +7057,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
-              "projectPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
+            "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
+              "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
             }
           }
         }

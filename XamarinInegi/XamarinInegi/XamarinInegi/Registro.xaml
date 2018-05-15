@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinInegi.Registro">
+             x:Class="XamarinInegi.Registro"
+             BackgroundColor="#233CB5">
     <StackLayout VerticalOptions="Center">
         <Image 
             x:Name="imgRegistro"
@@ -13,6 +14,7 @@
             x:Name="entEmailRegistro"
             HorizontalTextAlignment="Center"
             Placeholder="Correo electrónico"
+            PlaceholderColor="White"
             HorizontalOptions="Center"
             WidthRequest="300"
             Keyboard="Email"/>
@@ -20,6 +22,7 @@
             x:Name="entPasswordRegistro"
             HorizontalTextAlignment="Center"
             Placeholder="Contraseña"
+            PlaceholderColor="White"
             HorizontalOptions="Center"
             WidthRequest="300"
             IsPassword="True"/>
@@ -27,6 +30,7 @@
             x:Name="entPasswordConfirmationRegistro"
             HorizontalTextAlignment="Center"
             Placeholder="Confirmar contraaseña"
+            PlaceholderColor="White"
             HorizontalOptions="Center"
             WidthRequest="300"
             IsPassword="True"/>
@@ -37,7 +41,7 @@
             WidthRequest="150"
             BorderRadius="25"
             BackgroundColor="White"
-            TextColor="Red"/>
+            TextColor="#233CB5"/>
         <Button 
             x:Name="btnLinkToLogin"
             Text="¿Registrado?, Inicia sesión"
@@ -45,6 +49,7 @@
             WidthRequest="250"
             BorderRadius="25"
             BackgroundColor="White"
-            TextColor="Red"/>
+            TextColor="#233CB5"
+            Clicked="btnLinkToLogin_Clicked"/>
     </StackLayout>
 </ContentPage>

@@ -340,11 +340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
+      "projectUniqueName": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
       "projectName": "XamarinInegi",
-      "projectPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
+      "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
       "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\obj\\",
+      "outputPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

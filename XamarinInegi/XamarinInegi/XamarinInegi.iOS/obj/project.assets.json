@@ -712,11 +712,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.iOS\\XamarinInegi.iOS.csproj",
+      "projectUniqueName": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.iOS\\XamarinInegi.iOS.csproj",
       "projectName": "XamarinInegi.iOS",
-      "projectPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.iOS\\XamarinInegi.iOS.csproj",
+      "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.iOS\\XamarinInegi.iOS.csproj",
       "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi.iOS\\obj\\",
+      "outputPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -733,8 +733,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
-              "projectPath": "C:\\Users\\brand\\Documents\\Brandon\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
+            "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
+              "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
             }
           }
         }

@@ -14,6 +14,7 @@
         <Entry
             x:Name="entEmailLogin"
             Placeholder="Correo electrónico"
+            PlaceholderColor="White"
             Keyboard="Email"
             HorizontalTextAlignment="Center"
             HorizontalOptions="Center"
@@ -23,6 +24,7 @@
             x:Name="entPasswordLogin"
             HorizontalTextAlignment="Center"
             Placeholder="Contraseña"
+            PlaceholderColor="White"
             IsPassword="True"
             HorizontalOptions="Center"
             WidthRequest="300"
@@ -35,7 +37,8 @@
             BackgroundColor="White"
             HorizontalOptions="Center"
             WidthRequest="200"
-            BorderRadius="25"/>
+            BorderRadius="25"
+            Clicked="btnLinkToFunciones_Clicked"/>
         
         <Button
             x:Name="btnLinkToRegistrar"
@@ -44,7 +47,8 @@
             BackgroundColor="White"
             HorizontalOptions="Center"
             WidthRequest="200"
-            BorderRadius="25"/>
+            BorderRadius="25"
+            Clicked="btnLinkToRegistrar_Clicked"/>
             
             
     </StackLayout>

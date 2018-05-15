@@ -16,7 +16,9 @@ namespace XamarinInegi
 		{
 			InitializeComponent ();
             imgRegistro.Source = ImageSource.FromFile("add_user.png");
-		}
+            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         private void btnLinkToLogin_Clicked(object sender, EventArgs e)
         {

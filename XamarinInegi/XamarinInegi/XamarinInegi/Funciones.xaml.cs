@@ -15,6 +15,8 @@ namespace XamarinInegi
 		public Funciones ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 	}
 }

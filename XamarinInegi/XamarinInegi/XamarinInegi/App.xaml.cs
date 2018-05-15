@@ -28,5 +28,6 @@ namespace XamarinInegi
 		{
 			// Handle when your app resumes
 		}
-	}
+
+    }
 }

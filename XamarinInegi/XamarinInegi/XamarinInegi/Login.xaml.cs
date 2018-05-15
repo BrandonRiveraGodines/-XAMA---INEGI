@@ -13,7 +13,10 @@ namespace XamarinInegi
 		{
 			InitializeComponent();
             userLoginImage.Source = ImageSource.FromFile("user.png");
-		}
+            //((NavigationPage.SetHasBackButton()))
+            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
         private void btnLinkToFunciones_Clicked(object sender, EventArgs e)
         {

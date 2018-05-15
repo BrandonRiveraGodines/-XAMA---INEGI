@@ -200,6 +200,7 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\XamarinInegi.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\XamarinInegi.Android.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\XamarinInegi.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\XamarinInegi.Android.dll.mdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

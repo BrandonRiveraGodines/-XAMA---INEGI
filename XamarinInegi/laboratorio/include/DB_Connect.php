@@ -1,0 +1,18 @@
+<?php
+/**
+ * @author Ravi Tamada
+ * @link http://www.androidhive.info/2012/01/android-login-and-registration-with-php-mysql-and-sqlite/ Complete tutorial
+ */
+class DB_Connect {
+    private $conn;
+    // Connecting to database
+    public function connect() {
+    	require 'Config.php';
+        // Connecting to mysql database
+        $this->conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
+        echo "Se realizó la conexión \n";
+        // return database handler
+        return $this->conn;
+    }
+}
+?>

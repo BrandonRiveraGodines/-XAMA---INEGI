@@ -10,23 +10,41 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=853bf017-fbdc-4bd3-af8d-701344497aed</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\XamarinInegi.UWP.exe">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\XamarinInegi.UWP.exe">
       <PackagePath>entrypoint\XamarinInegi.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\plugin.permissions\2.2.1\lib\UAP10\Plugin.Permissions.Abstractions.dll">
+      <PackagePath>Plugin.Permissions.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\plugin.permissions\2.2.1\lib\UAP10\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\restsharp\106.2.2\lib\netstandard2.0\RestSharp.dll">
+      <PackagePath>RestSharp.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -520,6 +538,12 @@
     <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\xam.plugin.media\3.1.3\lib\UAP10\Plugin.Media.Abstractions.dll">
+      <PackagePath>Plugin.Media.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\xam.plugin.media\3.1.3\lib\UAP10\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\xamarin.forms\3.0.0.446417\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -532,127 +556,127 @@
     <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\xamarin.forms\3.0.0.446417\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.dll">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.dll">
       <PackagePath>XamarinInegi.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\XamarinInegi.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\XamarinInegi.UWP.xr.xml">
       <PackagePath>XamarinInegi.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
@@ -661,11 +685,11 @@
     <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\xamarin.forms\3.0.0.446417\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Core\XamarinInegi.UWP.exe">
+    <AppxPackagedFile Include="D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Core\XamarinInegi.UWP.exe">
       <PackagePath>XamarinInegi.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

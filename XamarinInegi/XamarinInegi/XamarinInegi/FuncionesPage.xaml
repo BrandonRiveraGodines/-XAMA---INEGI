@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinInegi.FuncionesPage">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Enviar producto" >
+        <StackLayout VerticalOptions="Center">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image x:Name="photoImage"/>
+                <Button x:Name="cameraButton" Text="Tomar foto" Grid.Row="1" Clicked="cameraButton_Clicked"/>
+            </Grid>
+            
+            <Entry
+                x:Name="entMensajeToBD"
+                Placeholder="Introduce el nombre del producto"
+                WidthRequest="400"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"/>
+            <Button 
+                x:Name="btnMensajeToBD"
+                Text="Clic para subir a Base de Datos"
+                HorizontalOptions="Center"
+                FontSize="Large"
+                Clicked="btnMensajeToBD_ClickedAsync"/>
+            <Label 
+                x:Name="lblMensajeFromBD"
+                Text="Vacio"
+                FontSize="Large"
+                HorizontalOptions="Center"
+                IsVisible="False"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Acerca de...">
+        <StackLayout VerticalOptions="Center">
+            <Image x:Name="inegiImage"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               WidthRequest="100"
+               HeightRequest="100"/>
+            <Label Text="Proyecto: Marco Normativo En Seguridad Informática y Controles de Calidad, para proyectos con tecnología móvil."
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontSize="Large"/>
+            <Label 
+                x:Name="lblMensajeInegi"
+                Text="Residente: Edith Iñiguez González"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontSize="Large"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

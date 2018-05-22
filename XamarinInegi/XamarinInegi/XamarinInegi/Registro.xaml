@@ -11,6 +11,13 @@
             WidthRequest="200"
             HeightRequest="200"/>
         <Entry 
+            x:Name="entUserNamePassword"
+            HorizontalTextAlignment="Center"
+            Placeholder="Nombre de usuario"
+            PlaceholderColor="White"
+            HorizontalOptions="Center"
+            WidthRequest="300"/>
+        <Entry 
             x:Name="entEmailRegistro"
             HorizontalTextAlignment="Center"
             Placeholder="Correo electrónico"
@@ -26,14 +33,6 @@
             HorizontalOptions="Center"
             WidthRequest="300"
             IsPassword="True"/>
-        <Entry 
-            x:Name="entPasswordConfirmationRegistro"
-            HorizontalTextAlignment="Center"
-            Placeholder="Confirmar contraaseña"
-            PlaceholderColor="White"
-            HorizontalOptions="Center"
-            WidthRequest="300"
-            IsPassword="True"/>
         <Button 
             x:Name="btnRegistrarUsuario"
             Text="Registrar"
@@ -41,7 +40,8 @@
             WidthRequest="150"
             BorderRadius="25"
             BackgroundColor="White"
-            TextColor="#233CB5"/>
+            TextColor="#233CB5"
+            Clicked="btnRegistrarUsuario_ClickedAsync"/>
         <Button 
             x:Name="btnLinkToLogin"
             Text="¿Registrado?, Inicia sesión"

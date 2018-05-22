@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Ideine.ModernHttpClient/3.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkHttp3": "3.8.1"
+        },
+        "compile": {
+          "lib/MonoAndroid/ModernHttpClient.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/ModernHttpClient.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -42,6 +54,79 @@
         },
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Plugin.CurrentActivity/2.1.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "Plugin.Permissions/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.CurrentActivity": "1.0.1",
+          "Xamarin.Android.Support.Compat": "25.4.0.2",
+          "Xamarin.Android.Support.Core.Utils": "25.4.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Permissions.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Permissions.dll": {}
+        }
+      },
+      "RestSharp/106.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      },
+      "Square.OkHttp3/3.8.1": {
+        "type": "package",
+        "dependencies": {
+          "Square.OkIO": "1.13.0"
+        },
+        "compile": {
+          "lib/MonoAndroid/Square.OkHttp3.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Square.OkHttp3.dll": {}
+        }
+      },
+      "Square.OkIO/1.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/Square.OkIO.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/Square.OkIO.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/3.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "2.2.1",
+          "Xamarin.Android.Support.Core.Utils": "25.4.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Media.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Media.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Media.dll": {}
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.0.0": {
@@ -387,8 +472,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Ideine.ModernHttpClient": "3.2.2",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "11.0.2",
+          "RestSharp": "106.2.2",
+          "Xam.Plugin.Media": "3.1.3",
           "Xamarin.Forms": "3.0.0.446417"
         },
         "compile": {
@@ -401,6 +489,21 @@
     }
   },
   "libraries": {
+    "Ideine.ModernHttpClient/3.2.2": {
+      "sha512": "bXt76EJ4KBsd2lpgDg8OUyuROYLTDwK8TR3mU5WEMEGNFVRQmcXmaS7T9ngbo7jK4GHqLAj0r4O26ml/7EwcVw==",
+      "type": "package",
+      "path": "ideine.modernhttpclient/3.2.2",
+      "files": [
+        "ideine.modernhttpclient.3.2.2.nupkg.sha512",
+        "ideine.modernhttpclient.nuspec",
+        "lib/MonoAndroid/ModernHttpClient.dll",
+        "lib/MonoAndroid/ModernHttpClient.pdb",
+        "lib/Portable-Net45+WinRT45+WP8+WPA81/ModernHttpClient.dll",
+        "lib/Portable-Net45+WinRT45+WP8+WPA81/ModernHttpClient.pdb",
+        "lib/Xamarin.iOS10/ModernHttpClient.dll",
+        "lib/Xamarin.iOS10/ModernHttpClient.pdb"
+      ]
+    },
     "Microsoft.Bcl/1.1.10": {
       "sha512": "+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
       "type": "package",
@@ -603,6 +706,131 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Plugin.CurrentActivity/2.1.0.2": {
+      "sha512": "uiMbA0G1ulSEj7MtGUQDDhzw80+QgvH5ts+Yt9cyft1dF4Eb0tYxiXAgNPuohJXpxhZmRs+6ZjL6QBaL/wUKDQ==",
+      "type": "package",
+      "path": "plugin.currentactivity/2.1.0.2",
+      "files": [
+        "lib/monoandroid44/Plugin.CurrentActivity.dll",
+        "lib/monoandroid44/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.2.1.0.2.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Plugin.Permissions/2.2.1": {
+      "sha512": "ixEdsOBokh6eIofokJmru0u18hZKUODkvJZeest0CsHiiuRcO38yiTr+2Nq6Pg9hm0fhyavFQydhbldfHOp44Q==",
+      "type": "package",
+      "path": "plugin.permissions/2.2.1",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Permissions.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Permissions.XML",
+        "lib/MonoAndroid10/Plugin.Permissions.dll",
+        "lib/MonoAndroid10/Plugin.Permissions.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Permissions.pdb",
+        "lib/UAP10/Plugin.Permissions.Abstractions.dll",
+        "lib/UAP10/Plugin.Permissions.Abstractions.pdb",
+        "lib/UAP10/Plugin.Permissions.Abstractions.xml",
+        "lib/UAP10/Plugin.Permissions.XML",
+        "lib/UAP10/Plugin.Permissions.dll",
+        "lib/UAP10/Plugin.Permissions.pdb",
+        "lib/UAP10/Plugin.Permissions.pri",
+        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Permissions.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Permissions.XML",
+        "lib/Xamarin.iOS10/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Permissions.deps.json",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.xml",
+        "plugin.permissions.2.2.1.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
+      ]
+    },
+    "RestSharp/106.2.2": {
+      "sha512": "PEz5Wy6W7phha9pvvxmIntYb2tQTvWwm4G0JlOMFApBtzNfFLxLqJxhZG7Fd+78JJvyRiqGGQtjtW6Hc86PTag==",
+      "type": "package",
+      "path": "restsharp/106.2.2",
+      "files": [
+        "lib/net452/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.dll",
+        "restsharp.106.2.2.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "Square.OkHttp3/3.8.1": {
+      "sha512": "8hVwOpzeQfklM/FxvYUe7RYjUN0SAqxkS4/pDHk/eee0j7P1eTfOxkVLdXUxRp5pC+9S1Tza2m/L1w2M+T7uUg==",
+      "type": "package",
+      "path": "square.okhttp3/3.8.1",
+      "files": [
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid/Square.OkHttp3.dll",
+        "square.okhttp3.3.8.1.nupkg.sha512",
+        "square.okhttp3.nuspec"
+      ]
+    },
+    "Square.OkIO/1.13.0": {
+      "sha512": "5jts0CsfE1Wnht+u+pfm64H+MkjtfgOmA4Z6YrhsKdahjzslteEW3ERvB2JV7yZXpXHQuBQAePCWokUWv5I1mw==",
+      "type": "package",
+      "path": "square.okio/1.13.0",
+      "files": [
+        "LICENSE.txt",
+        "README.md",
+        "lib/MonoAndroid/Square.OkIO.dll",
+        "square.okio.1.13.0.nupkg.sha512",
+        "square.okio.nuspec"
+      ]
+    },
+    "Xam.Plugin.Media/3.1.3": {
+      "sha512": "SI6m6PKeOZSksNp1j5fnl1ePeuLKQWMOkqy56YhCPtspfyA7N2k4lFi+2iU3TJ2YUfjWpIybTQ/1hdLKGTY6Jw==",
+      "type": "package",
+      "path": "xam.plugin.media/3.1.3",
+      "files": [
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Media.dll",
+        "lib/MonoAndroid10/Plugin.Media.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Media.pdb",
+        "lib/MonoAndroid10/Plugin.Media.xml",
+        "lib/UAP10/Plugin.Media.Abstractions.dll",
+        "lib/UAP10/Plugin.Media.Abstractions.pdb",
+        "lib/UAP10/Plugin.Media.Abstractions.xml",
+        "lib/UAP10/Plugin.Media.XML",
+        "lib/UAP10/Plugin.Media.dll",
+        "lib/UAP10/Plugin.Media.pdb",
+        "lib/UAP10/Plugin.Media.pri",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Media.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.xml",
+        "lib/netstandard1.0/Plugin.Media.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Media.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Media.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Media.deps.json",
+        "lib/netstandard1.0/Plugin.Media.dll",
+        "lib/netstandard1.0/Plugin.Media.pdb",
+        "lib/netstandard1.0/Plugin.Media.xml",
+        "lib/tizen40/Plugin.Media.Abstractions.dll",
+        "lib/tizen40/Plugin.Media.Abstractions.pdb",
+        "lib/tizen40/Plugin.Media.Abstractions.xml",
+        "lib/tizen40/Plugin.Media.deps.json",
+        "lib/tizen40/Plugin.Media.dll",
+        "lib/tizen40/Plugin.Media.pdb",
+        "readme.txt",
+        "xam.plugin.media.3.1.3.nupkg.sha512",
+        "xam.plugin.media.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.0.0": {
@@ -988,6 +1216,10 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Ideine.ModernHttpClient >= 3.2.2",
+      "Plugin.CurrentActivity >= 2.1.0.2",
+      "Plugin.Permissions >= 2.2.1",
+      "Xam.Plugin.Media >= 3.1.3",
       "Xamarin.Android.Support.Design >= 27.0.2",
       "Xamarin.Android.Support.v4 >= 27.0.2",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2",
@@ -1034,6 +1266,22 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Ideine.ModernHttpClient": {
+            "target": "Package",
+            "version": "[3.2.2, )"
+          },
+          "Plugin.CurrentActivity": {
+            "target": "Package",
+            "version": "[2.1.0.2, )"
+          },
+          "Plugin.Permissions": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          },
+          "Xam.Plugin.Media": {
+            "target": "Package",
+            "version": "[3.1.3, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[27.0.2, )"

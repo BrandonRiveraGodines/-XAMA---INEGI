@@ -18,5 +18,10 @@ namespace XamarinInegi
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
         }
+
+        public string Email
+        {
+            get; set;
+        }
 	}
 }

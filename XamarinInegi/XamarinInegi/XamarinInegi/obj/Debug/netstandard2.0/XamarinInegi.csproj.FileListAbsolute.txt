@@ -10,9 +10,9 @@ C:\Users\brand\Documents\Brandon\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debu
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.deps.json
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\bin\Debug\netstandard2.0\XamarinInegi.pdb
-D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.csprojAssemblyReference.cache
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.csproj.CoreCompileInputs.cache
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.AssemblyInfoInputs.cache
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.AssemblyInfo.cs
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi\obj\Debug\netstandard2.0\XamarinInegi.csprojAssemblyReference.cache

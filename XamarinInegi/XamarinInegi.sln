@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinInegi.iOS", "Xamarin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinInegi.UWP", "XamarinInegi\XamarinInegi.UWP\XamarinInegi.UWP.csproj", "{6FA77974-2A8F-427A-B3A9-C8D01428C12A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinInegi", "XamarinInegi\XamarinInegi\XamarinInegi.csproj", "{759478FA-DAA9-47CF-973A-52B81C3426EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinInegi", "XamarinInegi\XamarinInegi\XamarinInegi.csproj", "{759478FA-DAA9-47CF-973A-52B81C3426EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

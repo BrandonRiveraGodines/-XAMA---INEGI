@@ -39,7 +39,7 @@
             HorizontalOptions="Center"
             WidthRequest="200"
             BorderRadius="25"
-            Clicked="btnLinkToFunciones_Clicked"/>
+            Clicked="btnLinkToFunciones_ClickedAsync"/>
         
         <Button
             x:Name="btnLinkToRegistrar"

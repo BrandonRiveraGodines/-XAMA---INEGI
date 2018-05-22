@@ -5,14 +5,19 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using RestSharp;
+using System.Xml;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace XamarinInegi
 {
-	public partial class Login : ContentPage
-	{
-		public Login()
-		{
-			InitializeComponent();
+    public partial class Login : ContentPage
+    {
+        private static HttpClient client = new HttpClient();
+        public Login()
+        {
+            InitializeComponent();
             userLoginImage.Source = ImageSource.FromFile("user.png");
             //((NavigationPage.SetHasBackButton()))
             NavigationPage.SetHasBackButton(this, false);
@@ -20,27 +25,39 @@ namespace XamarinInegi
             this.BindingContext = this;
         }
 
-        private void btnLinkToFunciones_Clicked(object sender, EventArgs e)
+        private async Task btnLinkToFunciones_ClickedAsync(object sender, EventArgs e)
         {
             bool isEmailEmpty = string.IsNullOrEmpty(entEmailLogin.Text);
             bool isPassEmpty = string.IsNullOrEmpty(entPasswordLogin.Text);
-            string Email = entEmailLogin.Text.ToString();
-            string Password = entPasswordLogin.Text.ToString();
-            String URL_LOGIN = "http://192.168.0.4/laboratorio/Login.php";
-
+            string Email = entEmailLogin.Text;
+            string Password = entPasswordLogin.Text;
+            var values = new Dictionary<string, string>
+            {
+                {"email", Email },
+                {"password", Password }
+            };
+            var content = new FormUrlEncodedContent(values);
             if (isEmailEmpty || isPassEmpty)
             {
-                
-            } else
+                await DisplayAlert("Error", "Alguna de las credenciales falta", "Ok");
+            }
+            else
             {
-                using(HttpClient httpClient = new HttpClient())
+                var response = await client.PostAsync("http://192.168.0.5/laboratorio/login/", content);
+                var responseString = await response.Content.ReadAsStringAsync();
+                JObject jsonResponse = JObject.Parse(json: responseString);
+                JObject user = jsonResponse.SelectToken("user").Value<JObject>();
+                bool flag = jsonResponse.SelectToken("error").Value<bool>();
+                await DisplayAlert("JSON", user.ToString(), "Ok");
+                if (flag == false)
                 {
-                    HttpRequestMessage httpRequestMessage = new HttpRequestMessage(HttpMethod.Post, URL_LOGIN);
+                    await ((NavigationPage)this.Parent).PushAsync(new FuncionesPage(user.GetValue("email").ToString()));
+                    var pageEmailEnvio = new Funciones();
                     
-                    
+                } else
+                {
+                    await DisplayAlert("Error", "Error en las credenciales, favor de verificar.", "Ok");
                 }
-
-                ((NavigationPage)this.Parent).PushAsync(new Funciones());
             }
         }
 

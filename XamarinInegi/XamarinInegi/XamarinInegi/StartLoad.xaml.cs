@@ -9,7 +9,8 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinInegi
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class StartLoad : ContentPage
 	{
 		public StartLoad ()

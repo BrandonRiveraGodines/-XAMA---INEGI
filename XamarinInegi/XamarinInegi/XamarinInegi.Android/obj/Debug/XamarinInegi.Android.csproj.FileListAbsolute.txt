@@ -1,10 +1,10 @@
-D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.csprojAssemblyReference.cache
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\XamarinInegi.Android.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\XamarinInegi.Android.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\com.companyname.XamarinInegi.apk
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\com.companyname.XamarinInegi-Signed.apk
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\XamarinInegi.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\XamarinInegi.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.csprojAssemblyReference.cache
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.csproj.CoreCompileInputs.cache
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.csproj.CopyComplete
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.dll
@@ -33,6 +33,7 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\R.cs.flag
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\R.txt
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\uploadflags.txt
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\ModernHttpClient.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\Mono.Android.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\mscorlib.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\Plugin.Media.Abstractions.pdb
@@ -54,6 +55,7 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\System.Web.Services.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\Mono.Security.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\ModernHttpClient.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\Mono.Android.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\mscorlib.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\Plugin.Media.Abstractions.pdb
@@ -91,6 +93,7 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\XamarinInegi.Android.dll.mdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\ModernHttpClient.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Mono.Android.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Mono.Security.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\mscorlib.pdb
@@ -113,9 +116,10 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\XamarinInegi.pdb
-D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\ModernHttpClient.pdb
-D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\ModernHttpClient.pdb
-D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\ModernHttpClient.pdb
-C:\Users\Alberto\Documents\inegi\xamarin\XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.csprojAssemblyReference.cache
-C:\Users\Alberto\Documents\inegi\xamarin\XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.dll
-C:\Users\Alberto\Documents\inegi\xamarin\XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\XamarinInegi.Android.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\bin\Debug\XamarinInegi.Android.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\XamarinInegi.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\XamarinInegi.Android.dll.mdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\Plugin.Media.dll.mdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\Plugin.Permissions.dll.mdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

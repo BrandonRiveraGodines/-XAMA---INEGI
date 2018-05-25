@@ -15,6 +15,7 @@ namespace XamarinInegi
     public partial class Login : ContentPage
     {
         private static HttpClient client = new HttpClient();
+
         public Login()
         {
             InitializeComponent();
@@ -42,7 +43,7 @@ namespace XamarinInegi
             }
             else
             {
-                var response = await client.PostAsync("http://192.168.15.53/laboratorio/login/", content);
+                var response = await client.PostAsync("http://192.168.0.5/laboratorio/login/", content);
                 var responseString = await response.Content.ReadAsStringAsync();
                 JObject jsonResponse = JObject.Parse(json: responseString);
                 JObject user = jsonResponse.SelectToken("user").Value<JObject>();

@@ -12,10 +12,21 @@ using Xamarin.Forms.Xaml;
 namespace XamarinInegi
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
+    [SerializableAttribute]
     public partial class FuncionesPage : TabbedPage
     {
         string base64;
         private static HttpClient client = new HttpClient();
+
+        public FuncionesPage()
+        {
+            InitializeComponent();
+            inegiImage.Source = ImageSource.FromFile("inegi.png");
+            if (Application.Current.Properties.ContainsKey("session"))
+            {
+                persist.Text = Convert.ToString(Application.Current.Properties["session"]);
+            }
+        }
 
         public FuncionesPage (string emailParametro)
         {
@@ -28,15 +39,7 @@ namespace XamarinInegi
             }
         }
 
-        public FuncionesPage()
-        {
-            InitializeComponent();
-            inegiImage.Source = ImageSource.FromFile("inegi.png");
-            if (Application.Current.Properties.ContainsKey("session"))
-            {
-                persist.Text = Convert.ToString(Application.Current.Properties["session"]);
-            }
-        }
+        
 
         public async Task btnMensajeToBD_ClickedAsync(object sender, EventArgs e)
         {
@@ -66,7 +69,7 @@ namespace XamarinInegi
                 }
                 else
                 {
-                    var response = await client.PostAsync("http://192.168.1.70/laboratorio/products/", content);
+                    var response = await client.PostAsync("http://192.168.0.5/laboratorio/products/", content);
                     var responseString = await response.Content.ReadAsStringAsync();
                     await DisplayAlert("Respuesta", responseString, "OK");
                 }

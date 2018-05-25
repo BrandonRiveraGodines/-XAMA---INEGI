@@ -22,12 +22,20 @@ namespace XamarinInegi
             InitializeComponent();
             inegiImage.Source = ImageSource.FromFile("inegi.png");
             lblMensajeFromBD.Text = emailParametro;
+            if (Application.Current.Properties.ContainsKey("session"))
+            {
+                persist.Text = Convert.ToString(Application.Current.Properties["session"]);
+            }
         }
 
         public FuncionesPage()
         {
             InitializeComponent();
             inegiImage.Source = ImageSource.FromFile("inegi.png");
+            if (Application.Current.Properties.ContainsKey("session"))
+            {
+                persist.Text = Convert.ToString(Application.Current.Properties["session"]);
+            }
         }
 
         public async Task btnMensajeToBD_ClickedAsync(object sender, EventArgs e)
@@ -58,7 +66,7 @@ namespace XamarinInegi
                 }
                 else
                 {
-                    var response = await client.PostAsync("http://192.168.0.5/laboratorio/products/", content);
+                    var response = await client.PostAsync("http://192.168.1.70/laboratorio/products/", content);
                     var responseString = await response.Content.ReadAsStringAsync();
                     await DisplayAlert("Respuesta", responseString, "OK");
                 }
@@ -88,6 +96,18 @@ namespace XamarinInegi
                     return photo.GetStream();
                 });
                 
+            }
+        }
+
+        private async void cerrarSesion_Clicked(object sender, EventArgs e)
+        {
+            if (Application.Current.Properties.ContainsKey("session"))
+            {
+                Application.Current.Properties.Clear();
+                await DisplayAlert("Sesion", "Cerrando sesion", "Ok");
+                //var existingPages = Navigation.NavigationStack.ToList();
+                Navigation.InsertPageBefore(new Login(), this);
+                await Navigation.PopAsync();
             }
         }
     }

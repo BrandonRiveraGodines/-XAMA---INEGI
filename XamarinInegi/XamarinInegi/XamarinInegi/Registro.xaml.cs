@@ -49,7 +49,7 @@ namespace XamarinInegi
             }
             else
             {
-                var response = await client.PostAsync("http://192.168.0.5/laboratorio/register/", content);
+                var response = await client.PostAsync("http://192.168.1.70/laboratorio/register/", content);
                 var responseString = await response.Content.ReadAsStringAsync();
                 JObject jsonResponse = JObject.Parse(json: responseString);
                 JObject user = jsonResponse.SelectToken("user").Value<JObject>();

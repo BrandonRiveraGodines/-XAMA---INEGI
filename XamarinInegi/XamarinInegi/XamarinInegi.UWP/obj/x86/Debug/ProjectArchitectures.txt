@@ -1,1 +1,1 @@
-D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\XamarinInegi.UWP.csproj;x86
+C:\Users\Alberto\Documents\inegi\xamarin\XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\XamarinInegi.UWP.csproj;x86

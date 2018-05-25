@@ -33,6 +33,12 @@
                 FontSize="Large"
                 HorizontalOptions="Center"
                 IsVisible="False"/>
+            <Button
+                x:Name="cerrarSesion"
+                Text="Cerrar Sesion"
+                HorizontalOptions="Center"
+                FontSize="Medium"
+                Clicked="cerrarSesion_Clicked"/>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Acerca de...">
@@ -50,6 +56,13 @@
             <Label 
                 x:Name="lblMensajeInegi"
                 Text="Residente: Edith Iñiguez González"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="Black"
+                   FontSize="Large"/>
+            <Label 
+                x:Name="persist"
+                Text="?"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"
                    TextColor="Black"

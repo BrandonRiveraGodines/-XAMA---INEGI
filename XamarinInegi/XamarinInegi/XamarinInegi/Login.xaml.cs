@@ -24,8 +24,7 @@ namespace XamarinInegi
             NavigationPage.SetHasNavigationBar(this, false);
             this.BindingContext = this;
         }
-
-        private async Task btnLinkToFunciones_ClickedAsync(object sender, EventArgs e)
+    private async Task btnLinkToFunciones_ClickedAsync(object sender, EventArgs e)
         {
             bool isEmailEmpty = string.IsNullOrEmpty(entEmailLogin.Text);
             bool isPassEmpty = string.IsNullOrEmpty(entPasswordLogin.Text);
@@ -43,7 +42,7 @@ namespace XamarinInegi
             }
             else
             {
-                var response = await client.PostAsync("http://192.168.0.5/laboratorio/login/", content);
+                var response = await client.PostAsync("http://192.168.15.53/laboratorio/login/", content);
                 var responseString = await response.Content.ReadAsStringAsync();
                 JObject jsonResponse = JObject.Parse(json: responseString);
                 JObject user = jsonResponse.SelectToken("user").Value<JObject>();
@@ -51,9 +50,11 @@ namespace XamarinInegi
                 await DisplayAlert("JSON", user.ToString(), "Ok");
                 if (flag == false)
                 {
-                    await ((NavigationPage)this.Parent).PushAsync(new FuncionesPage(user.GetValue("email").ToString()));
+                    Application.Current.Properties[ "session" ] = user.GetValue("email").ToString();
+                    //await Navigation.PushAsync(new FuncionesPage(user.GetValue("email").ToString()));
+                    Navigation.InsertPageBefore(new FuncionesPage(user.GetValue("email").ToString()), this);
+                    await Navigation.PopAsync();
                     var pageEmailEnvio = new Funciones();
-                    
                 } else
                 {
                     await DisplayAlert("Error", "Error en las credenciales, favor de verificar.", "Ok");

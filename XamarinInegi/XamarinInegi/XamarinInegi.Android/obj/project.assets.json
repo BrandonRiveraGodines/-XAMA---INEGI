@@ -1230,20 +1230,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brand\\.nuget\\packages\\": {}
+    "C:\\Users\\Alberto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
       "projectName": "XamarinInegi.Android",
-      "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
-      "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\obj\\",
+      "projectPath": "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\XamarinInegi.Android.csproj",
+      "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1256,8 +1256,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
-              "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
+            "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj": {
+              "projectPath": "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj"
             }
           }
         }

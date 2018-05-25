@@ -733,23 +733,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brand\\.nuget\\packages\\": {},
+    "C:\\Users\\Alberto\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
+      "projectUniqueName": "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
       "projectName": "XamarinInegi",
-      "projectPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
-      "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\-XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\obj\\",
+      "projectPath": "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\XamarinInegi.csproj",
+      "packagesPath": "C:\\Users\\Alberto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alberto\\Documents\\inegi\\xamarin\\XAMA---INEGI\\XamarinInegi\\XamarinInegi\\XamarinInegi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

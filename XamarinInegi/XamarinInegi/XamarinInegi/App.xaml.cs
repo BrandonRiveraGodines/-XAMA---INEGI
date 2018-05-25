@@ -10,14 +10,21 @@ namespace XamarinInegi
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new NavigationPage(new Login());
-		}
+            MainPage = new NavigationPage(new StartLoad());
+            /*if (Application.Current.Properties.ContainsKey("session"))
+            {
+                MainPage = new NavigationPage(new FuncionesPage(Convert.ToString(Application.Current.Properties["session"])));
+            }
+            else
+            {
+                MainPage = new NavigationPage(new Login());
+            }*/
+        }
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
-		}
+            
+        }
 
 		protected override void OnSleep ()
 		{

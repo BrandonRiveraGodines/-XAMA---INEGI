@@ -190,3 +190,7 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\obj\iPhoneSim
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\obj\iPhoneSimulator\Debug\XamarinInegi.iOS.csproj.CopyComplete
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\obj\iPhoneSimulator\Debug\XamarinInegi.iOS.exe
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\obj\iPhoneSimulator\Debug\XamarinInegi.iOS.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\bin\iPhoneSimulator\Debug\Plugin.MediaManager.Abstractions.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\bin\iPhoneSimulator\Debug\Plugin.MediaManager.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\bin\iPhoneSimulator\Debug\Plugin.MediaManager.Forms.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.iOS\bin\iPhoneSimulator\Debug\Plugin.MediaManager.Forms.iOS.dll

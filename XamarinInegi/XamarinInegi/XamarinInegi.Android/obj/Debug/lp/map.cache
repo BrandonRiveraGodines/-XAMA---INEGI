@@ -4,6 +4,10 @@ Newtonsoft.Json
 Plugin.CurrentActivity
 Plugin.Media.Abstractions
 Plugin.Media
+Plugin.MediaManager.Abstractions
+Plugin.MediaManager
+Plugin.MediaManager.Forms.Android
+Plugin.MediaManager.Forms
 Plugin.Permissions.Abstractions
 Plugin.Permissions
 RestSharp
@@ -37,3 +41,4 @@ Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 XamarinInegi
 netstandard
+System.Resources.ResourceManager

@@ -40,6 +40,18 @@
     <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\plugin.mediamanager\0.4.5\lib\uap10.0\Plugin.MediaManager.Abstractions.dll">
+      <PackagePath>Plugin.MediaManager.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\plugin.mediamanager\0.4.5\lib\uap10.0\Plugin.MediaManager.dll">
+      <PackagePath>Plugin.MediaManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\plugin.mediamanager.forms\0.4.5\lib\uap10.0\Plugin.MediaManager.Forms.UWP.dll">
+      <PackagePath>Plugin.MediaManager.Forms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\plugin.mediamanager.forms\0.4.5\lib\uap10.0\Plugin.MediaManager.Forms.dll">
+      <PackagePath>Plugin.MediaManager.Forms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\brand\.nuget\packages\plugin.permissions\2.2.1\lib\UAP10\Plugin.Permissions.Abstractions.dll">
       <PackagePath>Plugin.Permissions.Abstractions.dll</PackagePath>
     </AppxPackagedFile>

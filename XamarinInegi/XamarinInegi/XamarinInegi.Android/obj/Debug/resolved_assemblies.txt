@@ -8,6 +8,10 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.Media.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.MediaManager.Abstractions.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.MediaManager.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.MediaManager.Forms.Android.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.MediaManager.Forms.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Plugin.Permissions.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\RestSharp.dll
@@ -78,5 +82,6 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\System.IO.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\System.Globalization.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\Mono.Security.dll
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.Android\obj\Debug\android\assets\System.Net.Primitives.dll

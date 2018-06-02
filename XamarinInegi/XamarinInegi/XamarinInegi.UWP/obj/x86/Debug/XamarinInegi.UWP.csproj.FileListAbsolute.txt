@@ -915,3 +915,11 @@ D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\obj\x86\Debug
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\obj\x86\Debug\Plugin.Media.pri.xml
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\obj\x86\Debug\ProjectArchitectures.txt
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Plugin.MediaManager.Abstractions.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Plugin.MediaManager.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Plugin.MediaManager.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Plugin.MediaManager.Forms.UWP.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Plugin.MediaManager.Forms.UWP.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Plugin.MediaManager.Forms.dll
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\bin\x86\Debug\Plugin.MediaManager.Forms.pdb
+D:\GitHub\-XAMA---INEGI\XamarinInegi\XamarinInegi\XamarinInegi.UWP\obj\x86\Debug\Plugin.MediaManager.Forms.UWP.pri.xml

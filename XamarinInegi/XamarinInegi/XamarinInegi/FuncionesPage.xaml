@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinInegi.FuncionesPage">
+            xmlns:forms="clr-namespace:Plugin.MediaManager.Forms;assembly=Plugin.MediaManager.Forms"
+            x:Class="XamarinInegi.FuncionesPage">
     <!--Pages can be added as references or inline-->
     <ContentPage Title="Enviar producto" >
         <StackLayout VerticalOptions="Center">
@@ -13,7 +14,6 @@
                 <Image x:Name="photoImage"/>
                 <Button x:Name="cameraButton" Text="Tomar foto" Grid.Row="1" Clicked="cameraButton_Clicked"/>
             </Grid>
-            
             <Entry
                 x:Name="entMensajeToBD"
                 Placeholder="Introduce el nombre del producto"
@@ -39,6 +39,30 @@
                 HorizontalOptions="Center"
                 FontSize="Medium"
                 Clicked="cerrarSesion_Clicked"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Subir video">
+        <StackLayout VerticalOptions="Center">
+            <forms:VideoView x:Name="MyVideoView"
+                         AspectMode="AspectFit"
+                         WidthRequest="320"
+                         HeightRequest="180"
+                         HorizontalOptions="Center"/>
+            <Button x:Name="PickVideo"
+                    Text="Tomar video"
+                    Clicked="PickVideo_ClickedAsync"
+                    FontSize="50"
+                    VerticalOptions="Center"/>
+            <Button x:Name="PlayPauseButton"
+                Text="Play"
+                FontSize="50"
+                Clicked="PlayPauseButton_Clicked"
+                VerticalOptions="Center"/>
+            <Button x:Name="UploadVideo"
+                    Text="Subir video"
+                    FontSize="50"
+                    Clicked="UploadVideo_Clicked"
+                    VerticalOptions="Center" />
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Acerca de...">

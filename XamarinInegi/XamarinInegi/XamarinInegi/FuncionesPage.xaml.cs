@@ -75,6 +75,7 @@ namespace XamarinInegi
                 else
                 {
                     var response = await client.PostAsync("http://192.168.0.5/laboratorio/products/", content);
+                    // Posdata: Te amo, a pesar de todo.
                     var responseString = await response.Content.ReadAsStringAsync();
                     await DisplayAlert("Respuesta", responseString, "OK");
                 }
